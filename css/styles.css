@@ -1,22 +1,22 @@
 .navbar{
-    background: steelblue;
+    background: #162b45; /* 17S colors */
 }
 .nav-link , .navbar-brand{
-    color: ghostwhite;
+    color: white;
     cursor: pointer;
 }
 .nav-link{
     margin-right: 1em !important;
 }
 .nav-link:hover{
-    background: ghostwhite;
-    color: steelblue;
+    background: white;
+    color: #162b45;
 }
 .navbar-collapse{
     justify-content: flex-end;
 }
 .navbar-toggler{
-    background: ghostwhite !important;
+    background: white !important;
 }
 /*header style*/
 .header{
@@ -37,21 +37,25 @@
     position: absolute;
     top: 30%;
     margin: auto;
-    padding: 2em;
+/*    padding: 2em;*/
+    max-width: 700px;
 }
 .description h3{
-    color: steelblue;
+    color: #162b45;
+    align-content: center;
 }
 .description p{
     color:gray;
     font-size: 20px;
-    width: 50%;
+    width: 100%;
     line-height: 1.5;
+    align-content: center;
 }
 .description button{
-    border:1px  solid steelblue;
-    background: steelblue;
-    color:ghostwhite;
+    border:1px  solid #162b45;
+    background: #162b45;
+    color:white;
+    align-content: center;
 }
 .about{
     margin: 4em 0;
@@ -59,7 +63,7 @@
     position: relative;
 }
 .about h3{
-    color: steelblue;
+    color: #162b45;
     margin: 2em;
 }
 .about img{
